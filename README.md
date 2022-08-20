@@ -1,2 +1,2 @@
 # JS-projects
-The journey of my js beginnings
+The journey of my js learning :--)
