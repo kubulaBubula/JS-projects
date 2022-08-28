@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5f7;
+    opacity: 0.95;
+    background-size: 20px 20px;
+    background-image:  repeating-linear-gradient(to right, hsl(9deg 12% 35%), hsl(9deg 12% 35%), #e5e5f7 1px, #e5e5f7);
+}
+
+.container {
+    width: 50%;
+    min-height: 60vh;
+    background-color: hsl(29deg 31% 69%);
+    box-shadow: 10px 5px 20px hsl(9deg 12% 35%);
+}
+.title {
+    width: 100%;
+    min-height: 8vh;
+    text-align: center;
+    color: white; 
+}
+.button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 8vh;
+}
+#btn {
+    background-color: transparent;
+    border: 1px solid hsl(9deg 12% 35%);
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.userPicture {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userPic {
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+}
+.userNameDiv {
+    width: 100%;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jobDescription {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+}
+.reviewsContainer {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+}
+.leftSide {
+    width: 10%;
+    min-height: 20vh;
+}
+.arrowLeft {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
+.reviewsBottom {
+    width: 90%;
+    min-height: 20vh;
+    padding: 20px;
+}
+.rightSide {
+    width: 10%;
+    min-height: 20vh;
+}
+.arrowRight {
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+}
